@@ -1,0 +1,368 @@
+html{
+    scroll-behavior: smooth;
+}
+/* navbar */
+.navbar{
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 60px;
+}
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 28px;
+}
+.nav-link.active{
+    color: #FFC0CB !important;
+    font-weight: 500;
+}
+.nav-link{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    transition: all 0.1s ease-in-out;
+    color: #000 !important;
+}
+.nav-link:hover{
+    color: #FFC0CB !important;
+}
+.garis-user{
+    width: 1px;
+    height: 30px;
+    background-color: #ADADAD;
+    margin: 0;
+    padding: 0;
+}
+/* tutup navbar */
+
+/* breadcrumb */
+.breadcrumb{
+    background-color: #fff;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.breadcrumb a{
+    color: #000;
+}
+
+/* detail */
+.detail{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px !important;
+}
+.about h1{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.about p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #b0b0b0;
+    font-style: normal;
+}
+.booking-bike{
+    border: 1px solid #e5e5e5;
+    height: 500px;
+    border-radius: 15px;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.booking-bike h3{
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
+.booking-bike h2{
+    font-family: 'Poppins';
+    font-size: 36px;
+    color: #E74C3C;
+    font-weight: 500;
+}
+.booking-bike .color span{
+    font-family: 'Poppins';
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+.dropdown{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #e5e5e5;
+    width: 260px;
+    height: 50px;
+}
+.btn-color{
+    font-size: 16px;
+    font-family: 'Poppins';
+    text-align: center;
+    width: 260px;
+    height: 50px;
+    background: #F5F6F8;
+}
+.btn-choose{
+    color: #fff;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #FF5D84;
+}
+
+.booking-bike .size span{
+    font-family: 'Poppins';
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+.size-number .btn-decreased{
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #e74c3c;
+}
+.input-size{
+    background-color: #f5f6f8;
+    width: 160px;
+    height: 50px;
+    border: 0px;
+    border-radius: 0px;
+    text-align: center;
+}
+.size-number .btn-increased{
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #FF5D84;
+}
+.btn-booking{
+    margin-top: 40px;
+    width: 260px;
+    height: 50px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #FF5D84;
+    transition: all 0.2s ease-in-out;
+}
+.btn-booking:hover{
+    box-shadow: 2px 9px 9px rgba(50, 82, 223, 0.50);
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Recommended */
+.popular-product{
+    background-color:  #FDF9FA;
+    width: auto;
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.component-products {
+    margin-top: 50px;
+    margin-bottom: 36px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: #000000;
+    padding-bottom: 15px;
+
+    transition: all 0.2s ease-in-out;
+
+}
+
+.component-products:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+    box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+.products-img {
+    padding-top: 0.8rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 8px 8px 0 0;
+    background: #FBEFF2;
+
+    transition: all 0.3s ease;
+}
+
+.products-text {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+    color: #171938;
+
+}
+
+.products-price{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+
+    color: #E98015;
+}
+/* tutup popular product */
+
+/* Testimonial */
+.testimonial {
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.testimonial-img {
+    z-index: 1;
+    position: absolute;
+    margin: 30px 0px 0px 30px;
+}
+
+.testimonial-frame {
+    width: 365px;
+    height: 500px;
+    border: 2px solid #E5E5E5;
+    border-radius: 15px;
+}
+
+.testimonial-text {
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+.testimonial-name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #ADADAD;
+}
+
+.btn-testimonial{
+    background: #FFC0CB;
+    padding-top: 12px;
+    width: 150px;
+    height: 50px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 170%;
+
+    color: #000000;
+    
+    transition: all 0.3s ease;
+    
+}
+
+.btn-testimonial:hover {
+    box-shadow: 0px 6px 12px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+    transform: scale(1.1);
+}
+/* Tutup Testimonial */
+
+
+/* footer */
+.footer {
+    background-color: #FBEFF2;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.footer h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 36px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.footer h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+    color: #000000;
+
+}
+
+.footer p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #9F9C9C;
+}
+
+.footer-small {
+    background-color: #2a2a2a;
+    text-align: center;
+}
+
+.footer-small p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    margin-top: 20px;
+
+    color: #ffffff;
+}
+
+.footer-small a {
+    font-weight: 500;
+    font-size: 16px;
+
+    text-decoration: none;
+
+    color: #FBEFF2;;
+}
+/* Tutup footer */
